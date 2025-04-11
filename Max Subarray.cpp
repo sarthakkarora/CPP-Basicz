@@ -11,6 +11,6 @@ public:
             currentSum = std::max(nums[i], currentSum + nums[i]);
             maxSum = std::max(maxSum, currentSum);
         }
-        return maxum;
+        return maxSum;
     }
 };
