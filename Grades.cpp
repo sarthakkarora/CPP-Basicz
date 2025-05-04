@@ -1,7 +1,5 @@
 #include <iostream>
 using namespace std;
-
-
 char getGrade(int marks) {
     if (marks < 25) return 'F';
     else if (marks <= 44) return 'E';
