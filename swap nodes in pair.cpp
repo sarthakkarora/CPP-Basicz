@@ -7,7 +7,6 @@ public:
         ListNode* prev = dummy;
         ListNode* n1 = head;
         ListNode* n2 = head->next;
-
         while(n1 != nullptr && n2 != nullptr){
             n1 ->next = n2 ->next;
             n2 ->next = n1;
