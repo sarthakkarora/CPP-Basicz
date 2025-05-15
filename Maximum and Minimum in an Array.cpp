@@ -8,7 +8,6 @@ void findMinMax(int arr[], int n) {
         minVal = min(minVal, arr[i]);
         maxVal = max(maxVal, arr[i]);
     }
-
     cout << "Min: " << minVal << ", Max: " << maxVal;
 }
 
