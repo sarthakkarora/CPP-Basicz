@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 void findMinMax(int arr[], int n) {
     int minVal = arr[0], maxVal = arr[0];
 
