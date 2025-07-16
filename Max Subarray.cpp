@@ -1,6 +1,5 @@
 #include <vector>
 #include <algorithm>
-
 class Solution {
 public:
     int maxSubArray(std::vector<int>& nums) {
