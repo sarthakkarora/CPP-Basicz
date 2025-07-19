@@ -2,7 +2,6 @@
 #include <cstdlib>
 #include <ctime>
 using namespace std;
-
 int main() {
     const int rows = 5, cols = 5;
     int matrix[rows][cols];
