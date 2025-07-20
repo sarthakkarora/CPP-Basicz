@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-
 int findMax(std::vector<int>& nums) {
     int maxNum = nums[0];
 
